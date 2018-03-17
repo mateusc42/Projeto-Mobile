@@ -20,7 +20,7 @@
           <br> Preço: {{product.price}}
         </p>
         <h3 item-end>
-          Total: R$
+          Total: R${{product.price * product.quantity | number:'1.2-2' }}
         </h3>
       </ion-item>
       <ion-item-options side="right">
